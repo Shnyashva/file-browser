@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://51.250.1.158:49153",
+  "ignoreTestFiles": ["*mock.js"],
+  "chromeWebSecurity": false,
+  "watchForFileChanges": true,
+  "viewportWidth": 1280,
+  "viewportHeight": 720
+}
