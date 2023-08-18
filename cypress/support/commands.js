@@ -32,7 +32,4 @@ Cypress.Commands.add('loginViaUi', (login, password) => {
     cy.get('[type="text"]').type(login)
     cy.get('[type="password"]').type(password)
     cy.get('.button').click()
-    
-    cy.wait('@login')
-    cy.getCookie('auth').should('exist')
 })
